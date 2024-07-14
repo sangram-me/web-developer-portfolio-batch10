@@ -139,7 +139,10 @@ nav ul li a {
        display: flex;
        gap: 24px;
 }
-.section-description{
+.skills-container .skill-description{
+       color: rgb(117, 117, 117);
+}
+.skills > .section-description{
        padding: 0px 150px 40px 150px ;
 }
 .skill{
@@ -147,6 +150,69 @@ nav ul li a {
        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
        border-radius: 5px;
 }
-.skill-description{
+
+/* resume section styles */
+.resume-container{
+       display: flex;
+       gap: 24px;
+}
+.resume .section-title{
+       text-align: center;
+       padding-bottom: 30px;
+}
+.resume-column-title{
+       font-size: 30px;
+       color: rgb(71, 71, 71);
+}
+.experience-title{
+       font-size: 25px;
+       color: rgb(71, 71, 71);
+}
+.experience-subtitle{
+       font-size: 20px;
+       font-weight: 600;
+       margin-bottom: 20px;
+}
+.experience-description, .experience-subtitle{
        color: rgb(117, 117, 117);
+}
+.resume hr{
+       margin: 30px 0px;
+}
+.resume-btn{
+       text-align: center;
+       margin-top: 50px;
+}
+/* footer styles */
+footer{
+       padding: 130px 230px;
+       display: flex;
+       gap: 100px;
+}
+.footer-column{
+       width: 50%;
+}
+.footer-column h3{
+       color: rgb(24, 24, 24);
+}
+.footer-column p{
+       color: rgb(71, 71, 71);
+       padding-bottom: 20px;
+}
+.footer-column div img{
+       padding-right: 15px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+       padding: 25px 35px;
+       border-radius: 5px;
+       background-color: #fff;
+       width: 100%;
+       display: flex;
+       margin-bottom: 24px;
+       border: none;
+       color: var(--dark-03, #757575);
+       font-family: "Open Sans", sans-serif;
+}
+p{
+       line-height: 30px;
 }
